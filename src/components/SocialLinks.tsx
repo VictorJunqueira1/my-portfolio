@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
-import "@/types/socialLinks"
 
-const socialLinks: SocialLink[] = [
+const socialLinks = [
     {
         href: "https://www.linkedin.com/in/victor-junqueira-789004281/",
         alt: "LinkedIn icon",
