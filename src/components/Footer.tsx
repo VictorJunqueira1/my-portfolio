@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center mt-52 mb-12 space-y-10">
+        <div className="flex flex-col items-center justify-center mt-52 mb-12 space-y-10" id='contact'>
             <h1 className="text-5xl md:text-6xl font-semibold text-white mb-4 text-center">
                 Entre Em Contato
             </h1>

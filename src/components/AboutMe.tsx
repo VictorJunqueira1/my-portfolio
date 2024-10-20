@@ -98,7 +98,7 @@ const AboutMe = () => {
                                 transition={{ duration: 0.8, delay: index * 0.3 }}
                                 className="bg-stone-900 text-secondary-foreground px-4 py-2 rounded-full flex items-center"
                             >
-                                <Image src={skill.svg} alt={skill.name} className="w-6 h-6 mr-2" />
+                                <Image src={skill.svg} alt={skill.name} width={24} height={24} className="mr-2" />
                                 {skill.name}
                             </motion.span>
                         ))}

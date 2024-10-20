@@ -12,8 +12,9 @@ import { Menu } from 'lucide-react';
 const Navbar = () => {
     const navItems = [
         { href: '#home', label: 'Home' },
-        { href: '#projects', label: 'Projetos' },
         { href: '#skills', label: 'Habilidades' },
+        { href: '#projects', label: 'Projetos' },
+        { href: '#contact', label: 'Contato' },
     ];
 
     return (
@@ -29,11 +30,14 @@ const Navbar = () => {
                             <Link href="#home" className="text-white hover:bg-stone-900 py-2 px-4 rounded-lg transition duration-300">
                                 Home
                             </Link>
+                            <Link href="#skills" className="text-white hover:bg-stone-900 py-2 px-4 rounded-lg transition duration-300">
+                                Habilidades
+                            </Link>
                             <Link href="#projects" className="text-white hover:bg-stone-900 py-2 px-4 rounded-lg transition duration-300">
                                 Projetos
                             </Link>
-                            <Link href="#skills" className="text-white hover:bg-stone-900 py-2 px-4 rounded-lg transition duration-300">
-                                Habilidades
+                            <Link href="#contact" className="text-white hover:bg-stone-900 py-2 px-4 rounded-lg transition duration-300">
+                                Contato
                             </Link>
                         </div>
                     </div>
