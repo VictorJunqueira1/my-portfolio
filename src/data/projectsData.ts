@@ -117,25 +117,6 @@ export const projectsData = [
         ],
     },
     {
-        category: "C# .NET",
-        projects: [
-            {
-                title: "Princípios SOLID",
-                description: "Projeto educativo para demonstrar e aplicar os princípios SOLID. O repositório inclui exemplos de uso correto e incorreto dos princípios.",
-                technologies: [
-                    {
-                        name: "C# .NET",
-                        svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
-                    },
-                ],
-                language: "C# .NET",
-                deployLink: "https://example.com/",
-                githubLink: "https://github.com/VictorJunqueira1/solid-principales",
-                emoji: "📦",
-            },
-        ],
-    },
-    {
         category: "Python",
         projects: [
             {
@@ -166,6 +147,25 @@ export const projectsData = [
                 githubLink: "https://github.com/VictorJunqueira1/py-game-math.git",
                 emoji: "🎲",
             }
+        ],
+    },
+    {
+        category: "C# .NET",
+        projects: [
+            {
+                title: "Princípios SOLID",
+                description: "Projeto educativo para demonstrar e aplicar os princípios SOLID. O repositório inclui exemplos de uso correto e incorreto dos princípios.",
+                technologies: [
+                    {
+                        name: "C# .NET",
+                        svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                    },
+                ],
+                language: "C# .NET",
+                deployLink: "https://example.com/",
+                githubLink: "https://github.com/VictorJunqueira1/solid-principales",
+                emoji: "📦",
+            },
         ],
     },
 ];
