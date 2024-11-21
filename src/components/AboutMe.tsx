@@ -7,16 +7,16 @@ import {
     TooltipProvider,
     TooltipTrigger,
 } from '@/components/ui/tooltip';
-import { motion } from 'framer-motion';
-import { useInView } from 'framer-motion';
-import { useRef } from 'react';
-import { skills } from '@/data/skillsData';
+import {motion} from 'framer-motion';
+import {useInView} from 'framer-motion';
+import {useRef} from 'react';
+import {skills} from '@/data/skillsData';
 
 const AboutMe = () => {
     const ref = useRef(null);
     const skillsRef = useRef(null);
-    const inView = useInView(ref, { once: true });
-    const skillsInView = useInView(skillsRef, { once: true });
+    const inView = useInView(ref, {once: true});
+    const skillsInView = useInView(skillsRef, {once: true});
 
     return (
         <TooltipProvider>
@@ -27,9 +27,9 @@ const AboutMe = () => {
             >
                 <motion.div
                     ref={ref}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={inView ? { opacity: 1, y: 0 } : {}}
-                    transition={{ duration: 1 }}
+                    initial={{opacity: 0, y: 20}}
+                    animate={inView ? {opacity: 1, y: 0} : {}}
+                    transition={{duration: 1}}
                     className="md:w-1/2 text-gray-400"
                 >
                     <h2 className="text-2xl font-bold text-primary mb-4 text-white">⚡ Sobre Mim</h2>
@@ -37,48 +37,55 @@ const AboutMe = () => {
                         Olá! Sou <span className="text-accent">Victor Gustavo Junqueira</span>, um desenvolvedor
                         <Tooltip>
                             <TooltipTrigger className="text-green-400 ml-1">Front-End</TooltipTrigger>
-                            <TooltipContent className="bg-gray-800 text-white text-base p-2 rounded shadow-md border border-green-400">
+                            <TooltipContent
+                                className="bg-gray-800 text-white text-base p-2 rounded shadow-md border border-green-400">
                                 <p>Especializado em UI/UX, mas com maior foco em Programação</p>
                             </TooltipContent>
                         </Tooltip>, apaixonado por tecnologia e em constante evolução.
                     </p>
                     <p className="text-muted-foreground mb-4">
-                        Minha jornada começou em 2022, com 15 anos, na ETEC Pedro Ferreira Alves, onde cursei
-                        <span className="text-accent"> Desenvolvimento de Sistemas</span>. Também adquiri conhecimento com o curso da
+                        Minha jornada começou em 2022, com 15 anos, na escola estadual ETEC Pedro Ferreira Alves, onde
+                        cursei
+                        <span className="text-accent"> Desenvolvimento de Sistemas</span>.
+                    </p>
+                    <p className="text-muted-foreground mb-4">
+                        Também adquiri conhecimentos de lógica de programação e boas práticas de desenvolvimento web com
+                        o curso da
                         <Tooltip>
                             <TooltipTrigger className="text-green-400 ml-1">B7WEB</TooltipTrigger>
-                            <TooltipContent className="bg-gray-800 text-white text-base p-2 rounded shadow-md border border-green-400">
-                                <p>Curso renomado em desenvolvimento web</p>
+                            <TooltipContent
+                                className="bg-gray-800 text-white text-base p-2 rounded shadow-md border border-green-400">
+                                <p>Curso full-stack voltado para desenvolvimento web <br /> abrangendo desde o básico até o avançado</p>
                             </TooltipContent>
-                        </Tooltip>, ampliando meus conhecimentos em desenvolvimento web.
+                        </Tooltip>
                     </p>
                     <p className="text-muted-foreground mb-4">
-                        Atualmente, atuo apenas no
+                        Atualmente, sou especializado em
                         <Tooltip>
                             <TooltipTrigger className="text-green-400 ml-1">Front-End</TooltipTrigger>
-                            <TooltipContent className="bg-gray-800 text-white text-base p-2 rounded shadow-md border border-green-400">
-                                <p>Com foco em Next.js. Pretendendo me especializar em Back-End (C# .NET)</p>
+                            <TooltipContent
+                                className="bg-gray-800 text-white text-base p-2 rounded shadow-md border border-green-400">
+                                <p>Com foco no framework Next.js. </p>
                             </TooltipContent>
-                        </Tooltip>, mas com capacidade para atuar no Back-End. Busco sempre me tornar um profissional completo, atualizado com as demandas do mercado.
+                        </Tooltip>, e expandindo minhas habilidades para o
+                        <Tooltip>
+                            <TooltipTrigger className="text-green-400 ml-1">Back-end.</TooltipTrigger>
+                            <TooltipContent
+                                className="bg-gray-800 text-white text-base p-2 rounded shadow-md border border-green-400">
+                                <p>Construindo APIs web com Node e Express e C# utilizando ASP.NET Core.</p>
+                            </TooltipContent>
+                        </Tooltip>
                     </p>
                     <p className="text-muted-foreground mb-4">
-                        Hoje, me encontro estudando
-                        <Tooltip>
-                            <TooltipTrigger className="text-green-400 ml-1">C# e Node</TooltipTrigger>
-                            <TooltipContent className="bg-gray-800 text-white text-base p-2 rounded shadow-md border border-green-400">
-                                <p>Microsserviços, arquiteturas de código e boas práticas</p>
-                            </TooltipContent>
-                        </Tooltip>, linguagens pelas quais admiro e pretendo trabalhar futuramente.
-                    </p>
-                    <p className="text-muted-foreground">
-                        Sinta-se à vontade para explorar meus repositórios e entrar em contato!
+                        Hoje, estou continuamente em busca de aprimorar minhas habilidades, focando nas melhores
+                        práticas de arquitetura de software e nos princípios de programação.
                     </p>
                 </motion.div>
                 <motion.div
                     ref={skillsRef}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={skillsInView ? { opacity: 1, y: 0 } : {}}
-                    transition={{ duration: 0.5 }}
+                    initial={{opacity: 0, y: 20}}
+                    animate={skillsInView ? {opacity: 1, y: 0} : {}}
+                    transition={{duration: 0.5}}
                     className="md:w-1/2 mt-6 md:mt-0"
                 >
                     <Image
@@ -93,12 +100,12 @@ const AboutMe = () => {
                         {skills.map((skill, index) => (
                             <motion.span
                                 key={skill.name}
-                                initial={{ opacity: 0, y: 20 }}
-                                animate={skillsInView ? { opacity: 1, y: 0 } : {}}
-                                transition={{ duration: 0.8, delay: index * 0.3 }}
+                                initial={{opacity: 0, y: 20}}
+                                animate={skillsInView ? {opacity: 1, y: 0} : {}}
+                                transition={{duration: 0.8, delay: index * 0.3}}
                                 className="bg-stone-900 text-secondary-foreground px-4 py-2 rounded-full flex items-center"
                             >
-                                <Image src={skill.svg} alt={skill.name} width={24} height={24} className="mr-2" />
+                                <Image src={skill.svg} alt={skill.name} width={24} height={24} className="mr-2"/>
                                 {skill.name}
                             </motion.span>
                         ))}

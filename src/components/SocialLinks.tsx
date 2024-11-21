@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import {Newspaper} from "lucide-react";
 
 const socialLinks = [
     {
@@ -23,14 +24,12 @@ const socialLinks = [
         label: "GitHub",
     },
     {
-        href: "mailto:victorjunqueira.prog@gmail.com",
-        alt: "Email icon",
+        href: "https://docs.google.com/document/d/1bkOF3TM3npdaw-xNiHGhVrnhDlNpyIoT/edit",
+        alt: "CV icon",
         icon: (
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zM4 6h16l-8 5-8-5zm0 12V9l8 5 8-5v9H4z" />
-            </svg>
+            <Newspaper />
         ),
-        label: "Email",
+        label: "CV",
     },
 ];
 

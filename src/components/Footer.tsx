@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
                 Entre Em Contato
             </h1>
             <div className="text-lg text-gray-400 mb-6 text-center px-6 md:px-0 space-y-0">
-                <p>Estou atualmente especializado em<span className='text-green-400'> Desevolvimento  Front-End</span></p>
+                <p>Sou atualmente especializado em<span className='text-green-400'> Desevolvimento  Front-End</span></p>
                 <p>Sinta-se à vontade para entrar em contato e conversar mais sobre seus projetos.</p>
             </div>
 

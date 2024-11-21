@@ -31,7 +31,7 @@ export const projectsData = [
             },
             {
                 title: "Biblioteca UI",
-                description: "Biblioteca de componentes UI responsivos e modernos. Inclui integrações com Next.js e Nuxt.js e podendo ser utilizada também com HTML, CSS e JavaScript puro.",
+                description: "Biblioteca de componentes UI responsivos e modernos. Inclui integrações com Next.js, TailwindCSS e TypeScript e HTML, CSS e JavaScript puro.",
                 technologies: [
                     {
                         name: "React.js",
