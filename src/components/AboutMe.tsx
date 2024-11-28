@@ -22,7 +22,7 @@ const AboutMe = () => {
         <TooltipProvider>
             <div
                 ref={ref}
-                className="flex flex-col md:flex-row items-center rounded-lg text-xl shadow-lg mt-56 mb-24 md:gap-40"
+                className="flex flex-col md:flex-row items-center rounded-lg text-xl mt-56 mb-24 md:gap-40"
                 id='skills'
             >
                 <motion.div
@@ -30,15 +30,15 @@ const AboutMe = () => {
                     initial={{opacity: 0, y: 20}}
                     animate={inView ? {opacity: 1, y: 0} : {}}
                     transition={{duration: 1}}
-                    className="md:w-1/2 text-gray-400"
+                    className="md:w-1/2 dark:text-gray-400 text-gray-800"
                 >
-                    <h2 className="text-2xl font-bold text-primary mb-4 text-white">⚡ Sobre Mim</h2>
+                    <h2 className="text-2xl font-bold text-primary mb-4 dark:text-white text-black">⚡ Sobre Mim</h2>
                     <p className="text-muted-foreground mb-4">
                         Olá! Sou <span className="text-accent">Victor Gustavo Junqueira</span>, um desenvolvedor
                         <Tooltip>
-                            <TooltipTrigger className="text-green-400 ml-1">Front-End</TooltipTrigger>
+                            <TooltipTrigger className="dark:text-green-400 text-green-600 ml-1">Front-End</TooltipTrigger>
                             <TooltipContent
-                                className="bg-gray-800 text-white text-base p-2 rounded shadow-md border border-green-400">
+                                className="dark:bg-gray-800 dark:text-white bg-slate-100 text-black text-base p-2 rounded shadow-lg dark:shadow-md border border-green-500 dark:border-green-400">
                                 <p>Especializado em UI/UX, mas com maior foco em Programação</p>
                             </TooltipContent>
                         </Tooltip>, apaixonado por tecnologia e em constante evolução.
@@ -52,9 +52,9 @@ const AboutMe = () => {
                         Também adquiri conhecimentos de lógica de programação e boas práticas de desenvolvimento web com
                         o curso da
                         <Tooltip>
-                            <TooltipTrigger className="text-green-400 ml-1">B7WEB</TooltipTrigger>
+                            <TooltipTrigger className="dark:text-green-400 text-green-600 ml-1">B7WEB</TooltipTrigger>
                             <TooltipContent
-                                className="bg-gray-800 text-white text-base p-2 rounded shadow-md border border-green-400">
+                                className="dark:bg-gray-800 dark:text-white bg-slate-100 text-black text-base p-2 rounded shadow-lg dark:shadow-md border border-green-400">
                                 <p>Curso Full-Stack Web abrangendo do básico ao avançado</p>
                             </TooltipContent>
                         </Tooltip>
@@ -62,16 +62,16 @@ const AboutMe = () => {
                     <p className="text-muted-foreground mb-4">
                         Atualmente, sou especializado em
                         <Tooltip>
-                            <TooltipTrigger className="text-green-400 ml-1">Front-End</TooltipTrigger>
+                            <TooltipTrigger className="dark:text-green-400 text-green-600 ml-1">Front-End</TooltipTrigger>
                             <TooltipContent
-                                className="bg-gray-800 text-white text-base p-2 rounded shadow-md border border-green-400">
+                                className="dark:bg-gray-800 dark:text-white bg-slate-100 text-black text-base p-2 rounded shadow-lg dark:shadow-md border border-green-400">
                                 <p>Com foco no framework Next.js. </p>
                             </TooltipContent>
                         </Tooltip>, e expandindo minhas habilidades para o
                         <Tooltip>
-                            <TooltipTrigger className="text-green-400 ml-1">Back-end.</TooltipTrigger>
+                            <TooltipTrigger className="dark:text-green-400 text-green-600 ml-1">Back-end.</TooltipTrigger>
                             <TooltipContent
-                                className="bg-gray-800 text-white text-base p-2 rounded shadow-md border border-green-400">
+                                className="dark:bg-gray-800 dark:text-white bg-slate-100 text-black text-base p-2 rounded shadow-lg dark:shadow-md border border-green-400">
                                 <p>Construindo APIs web com Node e C# (ASP.NET Core).</p>
                             </TooltipContent>
                         </Tooltip>
@@ -103,7 +103,7 @@ const AboutMe = () => {
                                 initial={{opacity: 0, y: 20}}
                                 animate={skillsInView ? {opacity: 1, y: 0} : {}}
                                 transition={{duration: 0.8, delay: index * 0.3}}
-                                className="bg-stone-900 text-secondary-foreground px-4 py-2 rounded-full flex items-center"
+                                className="dark:bg-stone-900 bg-slate-200 dark:text-white px-4 py-2 rounded-full flex items-center"
                             >
                                 <Image src={skill.svg} alt={skill.name} width={24} height={24} className="mr-2"/>
                                 {skill.name}

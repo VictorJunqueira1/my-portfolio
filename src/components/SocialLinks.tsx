@@ -49,12 +49,12 @@ const SocialLinks = () => {
                 >
                     <Link
                         href={link.href}
-                        className="flex items-center justify-center bg-stone-900 rounded-lg py-2 px-4 hover:bg-stone-800 transition duration-300 text-green-400"
+                        className="flex items-center justify-center border dark:border-none border-slate-300 dark:bg-stone-900 bg-slate-100 rounded-lg py-2 px-4 dark:hover:bg-stone-800 hover:bg-slate-200 transition duration-300 dark:text-green-400 text-green-500"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         {link.icon}
-                        <span className="ml-2 flex-1 text-white text-lg">{link.label}</span>
+                        <span className="ml-2 flex-1 dark:text-white text-black text-lg">{link.label}</span>
                     </Link>
                 </motion.div>
             ))}

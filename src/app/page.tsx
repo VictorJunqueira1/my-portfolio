@@ -1,20 +1,26 @@
-import AboutMe from '@/components/AboutMe';
 import Navbar from '../components/Navbar';
 import Apresentation from '@/components/Apresentation';
+import AboutMe from '@/components/AboutMe';
 import Projects from '@/components/Projects';
 import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
     <>
-      <div className="bg-black text-white mx-auto min-h-screen flex flex-col">
+      <div className="dark:bg-black bg-slate-100 dark:text-white mx-auto min-h-screen flex flex-col">
         <Navbar />
         <main className="flex flex-col max-w-7xl mx-auto w-full p-4">
           <Apresentation />
-          <AboutMe />
         </main>
-        <Projects />
-        <Footer />
+        <section className='flex flex-col max-w-7xl mx-auto w-full p-4'>
+          <AboutMe />
+        </section>
+        <section>
+          <Projects />
+        </section>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </>
   );
