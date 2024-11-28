@@ -150,18 +150,18 @@ export const projectsData = [
         ],
     },
     {
-        category: "C# .NET",
+        category: "C#",
         projects: [
             {
                 title: "Princípios SOLID",
                 description: "Projeto educativo para demonstrar e aplicar os princípios SOLID. O repositório inclui exemplos de uso correto e incorreto dos princípios.",
                 technologies: [
                     {
-                        name: "C# .NET",
+                        name: "C#",
                         svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
                     },
                 ],
-                language: "C# .NET",
+                language: "C#",
                 deployLink: "https://example.com/",
                 githubLink: "https://github.com/VictorJunqueira1/solid-principales",
                 emoji: "📦",

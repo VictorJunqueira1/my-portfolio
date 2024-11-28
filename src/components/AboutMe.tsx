@@ -55,7 +55,7 @@ const AboutMe = () => {
                             <TooltipTrigger className="text-green-400 ml-1">B7WEB</TooltipTrigger>
                             <TooltipContent
                                 className="bg-gray-800 text-white text-base p-2 rounded shadow-md border border-green-400">
-                                <p>Curso full-stack voltado para desenvolvimento web <br /> abrangendo desde o básico até o avançado</p>
+                                <p>Curso Full-Stack Web abrangendo do básico ao avançado</p>
                             </TooltipContent>
                         </Tooltip>
                     </p>
@@ -72,12 +72,12 @@ const AboutMe = () => {
                             <TooltipTrigger className="text-green-400 ml-1">Back-end.</TooltipTrigger>
                             <TooltipContent
                                 className="bg-gray-800 text-white text-base p-2 rounded shadow-md border border-green-400">
-                                <p>Construindo APIs web com Node e Express e C# utilizando ASP.NET Core.</p>
+                                <p>Construindo APIs web com Node e C# (ASP.NET Core).</p>
                             </TooltipContent>
                         </Tooltip>
                     </p>
                     <p className="text-muted-foreground mb-4">
-                        Hoje, estou continuamente em busca de aprimorar minhas habilidades, focando nas melhores
+                        Hoje, estou focando nas melhores
                         práticas de arquitetura de software e nos princípios de programação.
                     </p>
                 </motion.div>
