@@ -1,6 +1,6 @@
 export const projectsData = [
     {
-        category: "JavaScript",
+        category: "JavaScript (Front-End)",
         projects: [
             {
                 title: "Assistente de Estudos",
@@ -24,7 +24,7 @@ export const projectsData = [
                         svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg"
                     }
                 ],
-                language: "JavaScript",
+                language: "JavaScript - Front-End",
                 deployLink: "https://studyassistant.vercel.app",
                 githubLink: "https://github.com/VictorJunqueira1/study-assistant.git",
                 emoji: "📚",
@@ -50,7 +50,7 @@ export const projectsData = [
                         svg: "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
                     }
                 ],
-                language: "JavaScript",
+                language: "JavaScript - Front-End",
                 deployLink: "https://innotech-ui.vercel.app",
                 githubLink: "https://github.com/VictorJunqueira1/lib-ui",
                 emoji: "📱",
@@ -66,7 +66,7 @@ export const projectsData = [
                         svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                     },
                 ],
-                language: "JavaScript",
+                language: "JavaScript - Front-End",
                 deployLink: "https://proportional-days-calculator.vercel.app",
                 githubLink: "https://github.com/VictorJunqueira1/proportional-days-calculator.git",
                 emoji: "📅",
@@ -86,7 +86,7 @@ export const projectsData = [
                         svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg"
                     }
                 ],
-                language: "JavaScript",
+                language: "JavaScript - Front-End",
                 deployLink: "https://mariogame-victorjunqueira.vercel.app",
                 githubLink: "https://github.com/VictorJunqueira1/mario-game.git",
                 emoji: "🎮",
@@ -109,10 +109,75 @@ export const projectsData = [
                     },
                     {name: "TailwindCSS", svg: "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"}
                 ],
-                language: "JavaScript",
+                language: "JavaScript - Front-End",
                 deployLink: "https://homeadventureclube.vercel.app",
                 githubLink: "https://github.com/VictorJunqueira1/portfolio-desbravadores.git",
                 emoji: "🏕️",
+            },
+        ],
+    },
+    {
+        category: "JavaScript (Back-End)",
+        projects: [
+            {
+                title: "API para Sorteio",
+                description: "Uma API para gerenciar sorteios e manter os dados de vencedores. Usando TypeScript para maior segurança e escalabilidade no código, e MongoDB para armazenar os dados.",
+                technologies: [
+                    {
+                        name: "Node.js",
+                        svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                    },
+                    {
+                        name: "Express.js",
+                        svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                    },
+                    {
+                        name: "TypeScript",
+                        svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                    },
+                    {
+                        name: "MongoDB",
+                        svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                    },
+                ],
+                language: "JavaScript - Back-End",
+                deployLink: "https://bratecno-sorteio.vercel.app/",
+                githubLink: "https://github.com/VictorJunqueira1/winners-api-polgo.git",
+                emoji: "🎈",
+            },
+            {
+                title: "To-Do List",
+                description: "Lista de tarefas com autenticação usando JWT e criptografia com Bcrypt no login. Segue os princípios SOLID e Clean Code, garantindo um código bem estruturado, fácil de manter e escalável. Combinando segurança e boas práticas de design para criar uma base sólida e confiável.",
+                technologies: [
+                    {
+                        name: "Node.js",
+                        svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                    },
+                    {
+                        name: "Express.js",
+                        svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                    },
+                    {
+                        name: "TypeScript",
+                        svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                    },
+                    {
+                        name: "Docker",
+                        svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                    },
+                    {
+                        name: "MongoDB",
+                        svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                    },
+                    {
+                        name: "RedisDB",
+                        svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+                    },
+                ],
+                language: "JavaScript - Back-End",
+                deployLink: "https://github.com/VictorJunqueira1/todo-list-nodejs",
+                githubLink: "https://github.com/VictorJunqueira1/todo-list-nodejs",
+                emoji: "📋",
             },
         ],
     },
@@ -129,7 +194,7 @@ export const projectsData = [
                     },
                 ],
                 language: "Python",
-                deployLink: "https://example.com/",
+                deployLink: "https://github.com/VictorJunqueira1/pdf-parser.git",
                 githubLink: "https://github.com/VictorJunqueira1/pdf-parser.git",
                 emoji: "📃",
             },
@@ -143,7 +208,7 @@ export const projectsData = [
                     },
                 ],
                 language: "Python",
-                deployLink: "https://example.com/",
+                deployLink: "https://github.com/VictorJunqueira1/py-game-math.git",
                 githubLink: "https://github.com/VictorJunqueira1/py-game-math.git",
                 emoji: "🎲",
             }
@@ -162,7 +227,7 @@ export const projectsData = [
                     },
                 ],
                 language: "C#",
-                deployLink: "https://example.com/",
+                deployLink: "https://github.com/VictorJunqueira1/solid-principales",
                 githubLink: "https://github.com/VictorJunqueira1/solid-principales",
                 emoji: "📦",
             },

@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { FaEye, FaGithub } from 'react-icons/fa'
 import { projectsData } from "@/data/projectsData"
+import LanguageSelector from './LanguageSelector'
 
 export default function ModernProjects() {
     const [activeCategory, setActiveCategory] = useState(projectsData[0].category)
@@ -22,18 +23,10 @@ export default function ModernProjects() {
                 </p>
 
                 <div className="flex justify-center mb-12 space-x-4 flex-wrap">
-                    {projectsData.map((category) => (
-                        <button
-                            key={category.category}
-                            onClick={() => setActiveCategory(category.category)}
-                            className={`px-4 py-2 rounded-full transition-colors duration-300 mb-2 ${activeCategory === category.category
-                                    ? 'dark:bg-green-500 bg-green-600 text-white'
-                                    : 'dark:bg-gray-800 dark:border-none border border-slate-300 dark:text-gray-400 text-gray-800 hover:bg-slate-200 dark:hover:bg-gray-700'
-                                }`}
-                        >
-                            {category.category}
-                        </button>
-                    ))}
+                    <LanguageSelector
+                        activeCategory={activeCategory}
+                        setActiveCategory={setActiveCategory}
+                    />
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 grid-auto-rows-fr">

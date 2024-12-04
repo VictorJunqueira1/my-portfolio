@@ -103,7 +103,7 @@ const AboutMe = () => {
                                 initial={{opacity: 0, y: 20}}
                                 animate={skillsInView ? {opacity: 1, y: 0} : {}}
                                 transition={{duration: 0.8, delay: index * 0.3}}
-                                className="dark:bg-stone-900 bg-slate-200 dark:text-white px-4 py-2 rounded-full flex items-center"
+                                className="dark:bg-stone-900 bg-slate-100 dark:text-white px-4 py-2 rounded-xl dark:rounded-full flex items-center"
                             >
                                 <Image src={skill.svg} alt={skill.name} width={24} height={24} className="mr-2"/>
                                 {skill.name}

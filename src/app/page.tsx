@@ -7,15 +7,13 @@ import Footer from '@/components/Footer';
 export default function Home() {
   return (
     <>
-      <div className="dark:bg-black bg-slate-100 dark:text-white mx-auto min-h-screen flex flex-col">
+      <div className="dark:bg-black bg-slate-200 dark:text-white mx-auto min-h-screen flex flex-col">
         <Navbar />
         <main className="flex flex-col max-w-7xl mx-auto w-full p-4">
           <Apresentation />
         </main>
         <section className='flex flex-col max-w-7xl mx-auto w-full p-4'>
           <AboutMe />
-        </section>
-        <section>
           <Projects />
         </section>
         <footer>
