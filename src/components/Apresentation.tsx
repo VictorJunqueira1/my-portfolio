@@ -47,8 +47,8 @@ const Apresentation = () => {
                     transition={{ duration: 0.5, delay: 1.5 }}
                     variants={variants}
                 >
-                    Software Engineer.
-                    <span className="dark:text-gray-500 text-gray-600"> Desenvolvedor compromissado com interesse em Tecnologia.</span>
+                    Desenvolvedor Júnior.
+                    <span className="dark:text-gray-500 text-gray-600"> Com interesse em Arquitetura de Software e Boas Práticas.</span>
                 </motion.p>
             </motion.div>
             <motion.div

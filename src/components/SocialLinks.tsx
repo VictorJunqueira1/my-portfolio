@@ -21,7 +21,7 @@ const socialLinks = [
         label: "GitHub",
     },
     {
-        href: "/cv-victor-junqueira.docx",
+        href: "/Currículo - Victor Junqueira.docx",
         alt: "CV icon",
         icon: (
             <Newspaper />
