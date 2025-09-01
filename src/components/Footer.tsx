@@ -6,7 +6,7 @@ import React from 'react';
 
 const footerLinks = [
     {
-        href: "https://www.linkedin.com/in/victor-junqueira-789004281/",
+        href: "https://www.linkedin.com/in/victorjunqueira",
         alt: "LinkedIn icon",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
                 Entre Em Contato
             </h1>
             <div className="text-lg dark:text-gray-400 text-gray-800 mb-6 text-center px-6 md:px-0 space-y-0">
-                <p>Sou atualmente especializado em<span className='dark:text-green-400 text-green-600'> Desevolvimento  Front-End</span></p>
+                <p>Sou atualmente especializado em<span className='dark:text-green-400 text-green-600'> Sistemas Web Full-Stack</span></p>
                 <p>Sinta-se à vontade para entrar em contato e conversar mais sobre seus projetos.</p>
             </div>
 

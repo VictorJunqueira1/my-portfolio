@@ -66,7 +66,7 @@ const Apresentation = () => {
                     transition={{ duration: 0.5, delay: 2.5 }}
                     variants={variants}
                 >
-                    🚀 Atualmente especializado em Front-End (React / Next.js)
+                    🚀 Atualmente especializado em Sistemas Web (NextJS / .NET 6+)
                 </motion.p>
                 <motion.p
                     className="text-lg sm:text-xl mb-8"
@@ -76,7 +76,7 @@ const Apresentation = () => {
                     transition={{ duration: 0.5, delay: 3 }}
                     variants={variants}
                 >
-                    ⚡ Especializado em <span className="dark:text-green-400 text-green-600 dark:font-normal">Responsividade e SEO</span>
+                    ⚡ Especializado em <span className="dark:text-green-400 text-green-600 dark:font-normal">Boas Práticas e APIs RESTful</span>
                 </motion.p>
             </motion.div>
             <SocialLinks />

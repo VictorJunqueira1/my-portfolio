@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const socialLinks = [
     {
-        href: "https://www.linkedin.com/in/victor-junqueira-789004281/",
+        href: "https://www.linkedin.com/in/victorjunqueira",
         alt: "LinkedIn icon",
         icon: (
             <FaLinkedin className="h-6 w-6" />
@@ -21,7 +21,7 @@ const socialLinks = [
         label: "GitHub",
     },
     {
-        href: "/Currículo - Victor Junqueira.docx",
+        href: "/CV_Victor_Junqueira.pdf",
         alt: "CV icon",
         icon: (
             <Newspaper />

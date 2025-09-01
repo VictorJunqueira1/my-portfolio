@@ -36,45 +36,26 @@ const AboutMe = () => {
                     <p className="text-muted-foreground mb-4">
                         Olá! Sou <span className="text-accent">Victor Gustavo Junqueira</span>, um desenvolvedor
                         <Tooltip>
-                            <TooltipTrigger className="dark:text-green-400 text-green-600 ml-1">Front-End</TooltipTrigger>
+                            <TooltipTrigger className="dark:text-green-400 text-green-600 ml-1">Full-Stack</TooltipTrigger>
                             <TooltipContent
                                 className="dark:bg-gray-800 dark:text-white bg-slate-100 text-black text-base p-2 rounded shadow-lg dark:shadow-md border border-green-500 dark:border-green-400">
-                                <p>Especializado em UI/UX, mas com maior foco em Programação</p>
+                                <p>Especializado arquiteturas de API, mas com maior foco em Boas Práticas</p>
                             </TooltipContent>
                         </Tooltip>, apaixonado por tecnologia e em constante evolução.
                     </p>
                     <p className="text-muted-foreground mb-4">
                         Minha jornada começou em 2022, com 15 anos, na escola estadual ETEC Pedro Ferreira Alves, onde
                         cursei
-                        <span className="text-accent"> Desenvolvimento de Sistemas</span>.
-                    </p>
-                    <p className="text-muted-foreground mb-4">
-                        Também adquiri conhecimentos de lógica de programação e boas práticas de desenvolvimento web com
-                        o curso da
-                        <Tooltip>
-                            <TooltipTrigger className="dark:text-green-400 text-green-600 ml-1">B7WEB</TooltipTrigger>
+                        <span className="text-accent"> Desenvolvimento de Sistemas</span>. Hoje estou cursando Sistemas de Informação no<Tooltip>
+                            <TooltipTrigger className="dark:text-green-400 text-green-600 ml-1">UNASP Engenheiro Coelho</TooltipTrigger>
                             <TooltipContent
                                 className="dark:bg-gray-800 dark:text-white bg-slate-100 text-black text-base p-2 rounded shadow-lg dark:shadow-md border border-green-400">
-                                <p>Curso Full-Stack Web abrangendo do básico ao avançado</p>
+                                <p>Instituição Nota 5 no MEC - presencial noturno</p>
                             </TooltipContent>
                         </Tooltip>
                     </p>
                     <p className="text-muted-foreground mb-4">
-                        Atualmente, sou especializado em
-                        <Tooltip>
-                            <TooltipTrigger className="dark:text-green-400 text-green-600 ml-1">Front-End</TooltipTrigger>
-                            <TooltipContent
-                                className="dark:bg-gray-800 dark:text-white bg-slate-100 text-black text-base p-2 rounded shadow-lg dark:shadow-md border border-green-400">
-                                <p>Com foco no framework Next.js. </p>
-                            </TooltipContent>
-                        </Tooltip>, e expandindo minhas habilidades para o
-                        <Tooltip>
-                            <TooltipTrigger className="dark:text-green-400 text-green-600 ml-1">Back-end.</TooltipTrigger>
-                            <TooltipContent
-                                className="dark:bg-gray-800 dark:text-white bg-slate-100 text-black text-base p-2 rounded shadow-lg dark:shadow-md border border-green-400">
-                                <p>Construindo APIs web com Node e C# (ASP.NET Core).</p>
-                            </TooltipContent>
-                        </Tooltip>
+                        Atualmente, sou especializado em Desevolvimento Web - com foco no framework Next.js e ASP.NET Core.
                     </p>
                     <p className="text-muted-foreground mb-4">
                         Hoje, estou focando nas melhores
